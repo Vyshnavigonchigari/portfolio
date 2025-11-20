@@ -9,14 +9,14 @@ export default function Hero() {
     >
       {/* Left content */}
       <div className="w-full md:w-1/2 text-center md:text-left mt-0 md:mt-10 mb-20 md:mb-0">
-        <h1 className="text-2xl  lg:text-4xl font-bold mb-3 text-white ">
+        <h1 className="text-2xl  lg:text-4xl font-bold mb-1 md:mb-3 text-white ">
           Hey I'm{" "}
           <span className="bg-linear-to-r from-cyan-400 via-purple-500 to-purple-300 text-transparent bg-clip-text">
             Vyshnavi
           </span>
         </h1>
 
-        <h2 className="text-xl lg:text-3xl font-semibold mb-2 flex justify-center md:justify-start items-center gap-2">
+        <h2 className="text-xl lg:text-3xl font-semibold mb-1 md:mb-2 flex justify-center md:justify-start items-center gap-2">
           <span className="text-white">I'm a</span>
           <span
             className=" text-xl lg:text-3xl bg-linear-to-r from-pink-500 via-orange-400 to-purple-400 text-transparent bg-clip-text drop-shadow-lg inline-flex"
@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
 
         {/* Social icons */}
-        <div className="flex justify-center md:justify-start gap-4  mt-4 md:mt-6">
+        <div className="flex justify-center md:justify-start gap-4  mt-3 md:mt-6">
           {[
             { icon: <FaGithub />, link: "https://github.com/Vyshnavigonchigari" },
             { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/vyshnavi-gonchigari" },
@@ -54,8 +54,8 @@ export default function Hero() {
             </a>
           ))}
         </div>
-<a href="/resume.pdf" download>
-  <button className="flex items-center gap-2 mt-6 px-2 py-1 md:px-4 md:py-2 text-white bg-linear-to-r from-cyan-500 via-purple-500 to-pink-500 font-bold rounded-md hover:scale-110 hover:border-2 hover:border-white shadow-md transition">
+<a href="/Vyshnavi_Gonchigari_In_Resume.pdf" download > 
+  <button className="flex items-center justify-center gap-2 mt-4 md:mt-6  mx-auto  md:ml-0 px-2 py-1 md:px-4 md:py-2 text-white bg-linear-to-r from-cyan-500 via-purple-500 to-pink-500 font-bold rounded-md hover:scale-110 hover:border-2 hover:border-white shadow-md transition">
     <FaFileDownload className="text-lg" />
     Resume
   </button>
@@ -63,7 +63,7 @@ export default function Hero() {
       </div>
 
       {/* Right image */}
-      <div className="w-full  pt-20 md:w-1/2 flex justify-center md:justify-end mb-0">
+      <div className="w-full  pt-5 md:pt-10 md:w-1/2 flex justify-center md:justify-end mb-0">
         <div className="relative w-64 h-64 md:w-88 md:h-88 lg:w-104 lg:h-104 xl:w-108 xl:h-108">
           <img
             src="/coderwomen2.png"

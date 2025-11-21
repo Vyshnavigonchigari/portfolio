@@ -214,7 +214,7 @@ export default function Contact() {
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-88 md:h-88">
             <img
-              src="/coderwomen2.png"
+              src="WomenCoder.png"
               alt="profile"
               className="w-full h-full object-cover"
             />

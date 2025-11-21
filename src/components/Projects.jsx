@@ -2,29 +2,29 @@ const projects = [
   {
     title: "HomelyBites – Cloud Kitchen Review Platform",
     description:
-      "A full-stack platform where users explore and review cloud kitchens. Built with authentication, role-based access, and a beautiful UI.",
-    img: "/images/homelybites.png",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    demo: "https://homelybites.com",
-    code: "https://github.com/yourrepo/homelybites",
+      "A full-stack platform where users explore and review cloud kitchens. Built with authentication and a beautiful UI.",
+    img: "/homelybitesSreenShot.png",
+    tech: ["Node.js", "Express", "MongoDB", "EJS"],
+    demo: "https://homelybites-o51g.onrender.com",
+    code: "https://github.com/Vyshnavigonchigari/HomelyBites",
   },
   {
-    title: "Visual CSS Playground",
+    title: "DrumKit – Play Beats Online",
     description:
-      "A live CSS editor that allows users to experiment with styling visually. Smooth UI with draggable components.",
-    img: "/images/cssplayground.png",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    demo: "#",
-    code: "#",
+      "An interactive drumkit where users create beats with keyboard or click inputs. Simple, responsive, and fun.",
+    img: "/DrumkitScreenShot.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://vyshnavigonchigari.github.io/Drum-Kit",
+    code: " https://github.com/Vyshnavigonchigari/Drum-Kit",
   },
   {
-    title: "Sentiment Analysis System",
+    title: "Developer Portfolio – My Work & Skills",
     description:
-      "Analyzes 5000+ product reviews using NLP to classify sentiments with 90% accuracy. Includes Flask UI.",
-    img: "/images/sentiment.png",
-    tech: ["Python", "Flask", "NLTK"],
-    demo: "#",
-    code: "#",
+      "A clean, responsive portfolio showcasing my projects, experience, and technical expertise. ",
+    img: "/myportfolioScreenshot.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    demo: " https://vyshnavigonchigari.netlify.app",
+    code: " https://github.com/Vyshnavigonchigari/portfolio",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Projects() {
             <img
               src={project.img}
               alt={project.title}
-              className="w-full h-48 object-cover rounded-xl mb-4"
+              className="w-full h-36 object-contain rounded-xl mb-4"
             />
 
             <h3 className="text-xl font-semibold bg-linear-to-r from-cyan-500 via-purple-500 to-pink-500 text-transparent bg-clip-text drop-shadow-lg ">

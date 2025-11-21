@@ -66,7 +66,7 @@ export default function Hero() {
             </a>
           ))}
         </div>
-        <a href="/Vyshnavi_Gonchigari_In_Resume.pdf" download>
+        <a href="/VyshnaviGonchigari_Resume.pdf" download>
           <button className="flex items-center justify-center gap-2  px-4 py-2 mt-4 md:mt-6  mx-auto  md:mx-0   text-white font-semibold  bg-linear-to-r from-cyan-500 via-purple-500 to-pink-500  rounded-md hover:scale-110 hover:border hover:border-white shadow-md transition">
             <FaFileDownload className="text-xl" />
             Resume
@@ -78,7 +78,7 @@ export default function Hero() {
       <div className="w-full  pt-5 md:pt-10 md:w-1/2 flex justify-center md:justify-end mb-0">
         <div className="relative w-64 h-64 md:w-88 md:h-88 lg:w-104 lg:h-104 xl:w-108 xl:h-108">
           <img
-            src="/coderwomen2.png"
+            src="/WomenCoder.png"
             alt="profile"
             className="w-full h-full object-cover"
           />

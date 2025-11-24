@@ -49,7 +49,7 @@ export default function Hero() {
             {
               icon: <FaLinkedinIn />,
               link: "https://www.linkedin.com/in/vyshnavi-gonchigari",
-            },
+            },    
             {
               icon: <FaEnvelope />,
               link: "mailto:vyshnavigonchigari@gmail.com",
